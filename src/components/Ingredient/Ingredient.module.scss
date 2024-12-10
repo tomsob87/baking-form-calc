@@ -1,0 +1,14 @@
+@import "../../styles/settings.scss";
+
+.ingr__container {
+    margin-top: 8px;
+    input {
+        margin-right: 4px;
+    }
+    input, select {
+        padding: 4px;
+        height: 30px;
+        border: 1px solid $color-accent;
+        border-radius: 5px;
+    }
+}

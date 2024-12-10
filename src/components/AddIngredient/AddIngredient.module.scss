@@ -1,0 +1,30 @@
+@import "../../styles/settings.scss";
+
+.add__ingr__container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 10px;
+}
+
+.single__ingr {
+    padding-top: 10px;
+}
+
+.button__add {
+    background-color: transparent;
+    margin-bottom: 14px;
+    padding: 10px 20px;
+    border: 1px solid $color-accent;
+    border-radius: 5px;
+    background-color: $color-accent;
+    color: $color-bgc;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: $transition;
+    &:hover {
+        background-color: transparent;
+        color: $color-accent;
+    }
+}

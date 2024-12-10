@@ -1,0 +1,34 @@
+@import "../../styles/global.scss";
+
+.forms__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.form__container {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.form__input {
+    margin: 10px 5px 10px 0;
+    padding: 4px;
+    font-size: 1rem;
+    text-align: center;
+    color: $color-text;
+    border: 1px solid $color-accent;
+    border-radius: 5px;
+}
+
+@media (orientation: portrait) {
+    .forms__container {
+        flex-direction: column;
+    }
+}
